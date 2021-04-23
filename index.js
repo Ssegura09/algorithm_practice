@@ -1,8 +1,6 @@
-// let array = ["a","b","c","a","a","a","b","b","b"]
-
-function test(arr){
-    for(let i = 0; i < arr.length; i++){
-        console.log(arr[i])
-    }
-}
-test(["a","b","c","a","a","a","b","b","b"])
+function persistence(num) {
+    num(39, 4, 25, 999)
+    let sum = num.toString()
+    console.log(sum)
+    console.log(num)
+ }
